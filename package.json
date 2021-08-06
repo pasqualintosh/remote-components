@@ -1,0 +1,35 @@
+{
+  "name": "remote-components",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "http-server ./dist",
+    "build": "rollup --config ./rollup.config.js",
+    "watch": "chokidar \"./components/*.js\" -c \"yarn build\""
+  },
+  "dependencies": {
+    "nanoid": "^3.1.20",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "~0.63.4",
+    "react-redux": "^7.2.2",
+    "redux": "^4.0.5"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/preset-env": "^7.13.9",
+    "@babel/preset-react": "^7.12.13",
+    "babel-core": "^6.26.3",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "babel-preset-env": "^1.7.0",
+    "chokidar-cli": "^2.1.0",
+    "http-server": "^0.12.3",
+    "rollup": "^2.40.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "author": "sarathkcm",
+  "license": "MIT"
+}

@@ -1,0 +1,1 @@
+"use strict";var e=require("react"),t=require("react-native");function r(e){return e&&"object"==typeof e&&"default"in e?e:{default:e}}var a=r(e);t.StyleSheet.create({}),module.exports=function(){return a.default.createElement(t.View,{style:{margin:10}},a.default.createElement(t.View,{style:{margin:15}},a.default.createElement(t.Text,null,"blablabla")))};
